@@ -12,7 +12,7 @@ public class WebNotification extends AbstractJavaScriptExtension {
 	}
 	
 	public void requestPermission() {
-		callFunction("requestPersmission");
+		callFunction("requestPermission");
 	}
 	
 	public void show(String title, String body) {
